@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4480D0CF1A2CE237007A6BA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4480D0CE1A2CE237007A6BA9 /* main.cpp */; };
+		4480D0D91A2CF272007A6BA9 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4480D0D71A2CF272007A6BA9 /* Person.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,12 @@
 /* Begin PBXFileReference section */
 		4480D0CB1A2CE237007A6BA9 /* NameTester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NameTester; sourceTree = BUILT_PRODUCTS_DIR; };
 		4480D0CE1A2CE237007A6BA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4480D0D51A2CE41D007A6BA9 /* names3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names3.txt; sourceTree = "<group>"; };
+		4480D0D61A2CF105007A6BA9 /* names4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names4.txt; sourceTree = "<group>"; };
+		4480D0D71A2CF272007A6BA9 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		4480D0D81A2CF272007A6BA9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4480D0DA1A2CF3B3007A6BA9 /* names3.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names3.dat; sourceTree = "<group>"; };
+		4480D0DB1A2CFFCD007A6BA9 /* sloot.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sloot.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,13 @@
 		4480D0CD1A2CE237007A6BA9 /* NameTester */ = {
 			isa = PBXGroup;
 			children = (
+				4480D0DA1A2CF3B3007A6BA9 /* names3.dat */,
+				4480D0D61A2CF105007A6BA9 /* names4.txt */,
+				4480D0D51A2CE41D007A6BA9 /* names3.txt */,
 				4480D0CE1A2CE237007A6BA9 /* main.cpp */,
+				4480D0D71A2CF272007A6BA9 /* Person.cpp */,
+				4480D0D81A2CF272007A6BA9 /* Person.h */,
+				4480D0DB1A2CFFCD007A6BA9 /* sloot.txt */,
 			);
 			path = NameTester;
 			sourceTree = "<group>";
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4480D0D91A2CF272007A6BA9 /* Person.cpp in Sources */,
 				4480D0CF1A2CE237007A6BA9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
